@@ -921,11 +921,13 @@ int main()
 	for (int z = 1; z < 10; z++)
 	{
 		SetConsoleTextAttribute(h, z);
-		string X = " THANKS A LOT SIR MUIZ QADIR & SIR USMAN GHOUS FOR MAKING US ABLE TO DO IT....";
+		string X = " THIS GAME BELONGS TO MUHAMMAD RAMEEZ & AVAILABLE PUBLICALLY FOR ANY IMPROVEMENT ....";
 		cout << setw(100) << X << endl;
 		Sleep(1000);
 	}
 	SetConsoleTextAttribute(h, 15);
+	system("START https://www.linkedin.com/in/muhammad-rameez-636a42289/");
+
 	system("pause");
 	return 0;
 }
